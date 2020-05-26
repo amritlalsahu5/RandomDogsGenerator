@@ -99,7 +99,7 @@ Below diagram presents application app flow when a user interacts with the appli
 
 <img src="misc/image/home_screen.jpeg" width="280" align="left" hspace="1">
 <img src="misc/image/generate_dogs_screen.jpeg" width="275" align="left" hspace="1">
-<img src="misc/image/display_dogs_screen.jpeg" width="280" align="left" hspace="1">
+<img src="misc/image/display_dogs_screen.jpeg" width="275" align="left" hspace="1">
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
