@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DogsGen</string>
+
+    <string name="text_generate_dogs">Generate Dogs!</string>
+    <string name="text_random_code_generator">Random Dog Generator</string>
+    <string name="text_recent_generated_dogs">My Recently Generated Dogs!</string>
+    <string name="text_clear">Clear</string>
+    <string name="msg_network_error">Network Error!!</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/homepage">
+
+    <fragment
+        android:id="@+id/homepage"
+        android:name="com.frankymedia.dogsgenerator.ui.HomeFragment"
+        android:label="@string/text_random_code_generator" >
+        <action
+            android:id="@+id/action_homepage_to_generateDogsFragment"
+            app:destination="@id/generateDogsFragment" />
+        <action
+            android:id="@+id/action_homepage_to_dogsListFragment"
+            app:destination="@id/RecentDogsListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/generateDogsFragment"
+        android:name="com.frankymedia.dogsgenerator.ui.DogGeneratorFragment"
+        android:label="@string/text_generate_dogs">
+
+    </fragment>
+    <fragment
+        android:id="@+id/RecentDogsListFragment"
+        android:name="com.frankymedia.dogsgenerator.ui.RecentGeneratedDogsFragment"
+        android:label="@string/text_recent_generated_dogs">
+
+    </fragment>
+</navigation>

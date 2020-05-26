@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="dogInfo"
+            type="com.frankymedia.dogsgenerator.devicedatabase.RoomDogsInfo" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_light_blue">
+
+        <ImageView
+            android:id="@+id/dogs_image"
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            android:padding="2dp"
+            app:imageUrl="@{dogInfo.url}"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/backgrounds/scenic"/>
+
+    </LinearLayout>
+</layout>
