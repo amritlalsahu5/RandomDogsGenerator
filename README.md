@@ -93,17 +93,22 @@ these operations is to create high-quality data source for the `domain` layer, n
 - **RetrofitService** - defines a set of API endpoints.
 - **DataModel** - defines the structure of the data retrieved from the network and contains annotations, so Retrofit (Moshi) understands how to parse this network data (XML, JSON, Binary...) this data into objects.
 
-### Application flow
+## Application flow
 
 Below diagram presents application app flow when a user interacts with the application:
 
-<img src="misc/image/home_screen.jpeg" width="275" align="left" hspace="1">
-<img src="misc/image/generate_dogs_screen.jpeg" width="275" align="left" hspace="1">
+<img src="misc/image/home_screen.jpeg" width="280" align="left" hspace="1">
+<img src="misc/image/generate_dogs_screen.jpeg" width="280" align="left" hspace="1">
 <img src="misc/image/display_dogs_screen.jpeg" width="280" align="left" hspace="1">
 
-<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-### Design decisions
+
+
+
+
+
+## Design decisions
 
 Read related articles to have a better understanding of underlying design decisions and various trade-offs.
 
@@ -134,6 +139,7 @@ There are a few ways to open this project.
 
 ## Author
 
-https://github.com/amritlalsahu5
+[Github](https://github.com/amritlalsahu5)<br/>
+[Medium](https://medium.com/@amritlalsahu5)
 
 
