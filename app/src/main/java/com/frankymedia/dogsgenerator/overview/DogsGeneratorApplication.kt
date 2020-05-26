@@ -6,11 +6,16 @@ import androidx.work.NetworkType
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-
+/*
+    Custom Application class
+ */
 class DogsGeneratorApplication : Application() {
 
     private val applicationScope = CoroutineScope(Dispatchers.Default)
+    /*
+        Work Manager has been kept to do backgound task on launch
 
+     */
     private fun setUpWork() {
 
         //work constraints

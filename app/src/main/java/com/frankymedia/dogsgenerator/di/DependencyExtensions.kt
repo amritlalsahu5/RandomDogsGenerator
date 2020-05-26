@@ -8,6 +8,7 @@ import androidx.lifecycle.ViewModelProviders
 
 /**
  * Kotlin extensions for dependency injection
+ * Provided ViewModel objects
  */
 
 inline fun <reified T : ViewModel> FragmentActivity.injectViewModel(factory: ViewModelProvider.Factory): T {

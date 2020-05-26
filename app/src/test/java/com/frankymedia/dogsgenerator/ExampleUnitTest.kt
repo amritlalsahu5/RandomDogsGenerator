@@ -1,4 +1,4 @@
-package com.example.githubapiparsing
+package com.frankymedia.dogsgenerator
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

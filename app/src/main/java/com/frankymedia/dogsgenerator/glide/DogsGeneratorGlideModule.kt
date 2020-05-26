@@ -8,15 +8,15 @@ import com.bumptech.glide.load.engine.cache.LruResourceCache
 import com.bumptech.glide.module.AppGlideModule
 
 
-/**
- * Created by Amrit Lal Sahu
- */
 @GlideModule
 /*
        Custom Glide module for configuration of Cache
        For Memory Caching: LruResoureCache is used.
        For DiskCache : Lru Caching is used by default
        memoryCacheSizeBytes : is the cached size allowed for now.
+       Moreover requestOptions method can also be overriden to
+       provide more options to the GlideModule or else can be set
+       directly while creating the GlideApp objects as well.
 
  */
 class DogsGeneratorGlideModule : AppGlideModule() {

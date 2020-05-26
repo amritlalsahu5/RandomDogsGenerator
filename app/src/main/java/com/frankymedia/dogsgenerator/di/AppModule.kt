@@ -5,6 +5,7 @@ import org.koin.dsl.module
 
 /**
  *  See https://start.insert-koin.io/#/quickstart/android
+ *  DI using Koin has not been added so far
  **/
 val appModule = module{
 

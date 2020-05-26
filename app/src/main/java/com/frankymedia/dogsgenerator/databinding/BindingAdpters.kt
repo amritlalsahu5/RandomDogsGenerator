@@ -11,7 +11,9 @@ import com.bumptech.glide.request.RequestOptions
 import com.frankymedia.dogsgenerator.glide.GlideApp
 import com.frankymedia.dogsgenerator.viewmodel.GenerateDogsApiStatus
 
-
+/*
+    Binding Adapter for handling the image caching in the xml using Glide
+ */
 @BindingAdapter("imageUrl")
 fun ImageView.setImg (imgUrl : String?) {
     imgUrl?.let {
@@ -24,7 +26,9 @@ fun ImageView.setImg (imgUrl : String?) {
     }
 
 }
-
+/*
+    Binding Adapter for progress bar status update during local or remote calls
+ */
 @BindingAdapter("ShowProgressBar")
 fun ProgressBar.show(status : GenerateDogsApiStatus?)
 {
@@ -34,7 +38,9 @@ fun ProgressBar.show(status : GenerateDogsApiStatus?)
         GenerateDogsApiStatus.LOADING-> {visibility = View.VISIBLE}
     }
 }
-
+/*
+    Binding adapter for network error updates
+ */
 @BindingAdapter("NetworkError")
 fun ProgressBar.networkError(isError : Boolean?) {
 
