@@ -29,6 +29,7 @@ good reason to use non-stable dependency.
 * Tech-stack
     * [Kotlin](https://kotlinlang.org/) + [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - perform background operations
     * [Retrofit](https://square.github.io/retrofit/) - networking
+    * [Glide](https://bumptech.github.io/glide/) -  fast and efficient image loading library for Android
     * [Jetpack](https://developer.android.com/jetpack)
         * [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/) - deal with whole in-app navigation
         * [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - notify views about database change
